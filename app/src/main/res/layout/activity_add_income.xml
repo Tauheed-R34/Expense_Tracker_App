@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Income"
+        android:textSize="24sp"
+        android:textColor="@color/primaryTextColor"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextAmountIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:inputType="numberDecimal"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:background="@drawable/edit_text_background" />
+
+    <EditText
+        android:id="@+id/editTextDetailIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detail"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSaveIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Income"
+        android:backgroundTint="@color/incomeColor"
+        android:textColor="@android:color/white" />
+</LinearLayout>
